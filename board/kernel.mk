@@ -11,3 +11,7 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/lenovo/msm8916
 TARGET_KERNEL_CONFIG := lineage_A6020_defconfig
+
+#Exfat Target
+TARGET_EXFAT_DRIVER := exfat
+
